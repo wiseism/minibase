@@ -6,13 +6,13 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Java CI with Maven master_mvn
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master_mvn" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master_mvn" ]
 
 jobs:
   build:
@@ -21,10 +21,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up JDK 17
+    - name: Set up JDK 11
       uses: actions/setup-java@v4
       with:
-        java-version: '17'
+        java-version: '11'
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
