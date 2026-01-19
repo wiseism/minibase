@@ -66,3 +66,5 @@ local.properties
 src/typescript
 src/tests/TRACE
 data/
+.idea
+*.iml
