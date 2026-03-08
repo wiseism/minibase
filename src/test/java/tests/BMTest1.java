@@ -15,7 +15,7 @@ import chainexception.*;
 /**
  * This class provides the functions to test the buffer manager
  */
-class BMDriver extends TestDriver implements GlobalConst {
+class BMDriver1 extends TestDriver implements GlobalConst {
 
 	private int TRUE = 1;
 	private int FALSE = 0;
@@ -25,7 +25,7 @@ class BMDriver extends TestDriver implements GlobalConst {
 	/**
 	 * BMDriver Constructor, inherited from TestDriver
 	 */
-	public BMDriver() {
+	public BMDriver1() {
 		super("buftest");
 	}
 
