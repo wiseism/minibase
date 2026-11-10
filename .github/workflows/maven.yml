@@ -26,7 +26,6 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: maven
     - name: Build with Make
       working-directory: src
       run: make
