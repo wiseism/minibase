@@ -29,3 +29,8 @@ JDKPATH = /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home
 ## 后续
 
 若 JDK8 编译仍报 Java 语法/类库问题，将按照 flake8 首跑日志继续迭代（本文件随每次修复更新）。
+
+## 验证记录
+| Run | 结果 |
+|---|---|
+| 42832065678 (d54b73f) | ✅ success |
